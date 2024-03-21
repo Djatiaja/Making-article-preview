@@ -1,0 +1,71 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .flex {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+  }
+  
+  .container {
+    background-color: white;
+    display: flex;
+    align-self: center;
+    width: 600px;
+    height: 250px;
+    border-radius: 10px ;
+    overflow: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .text {
+    padding: 30px;
+    width: 60%;
+    margin-top: -20px;
+    font-size: 13px;
+  }
+
+  .judul{
+    color: hsl(217, 19%, 35%);
+  }
+
+  .describe{
+    color: hsl(214, 17%, 51%);
+  }
+
+  .container image {
+
+  }
+
+  .employe{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+  }
+
+  .employe img{
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+  .nama{
+    display: flex;
+    flex-direction: column;
+  }
+.nama h5{
+    color: hsl(217, 19%, 35%);
+    margin: 0;
+}
+.nama p{
+    margin: 0;
+    color: hsl(212, 23%, 69%);
+}
