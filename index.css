@@ -24,13 +24,56 @@
     overflow: hidden;
     margin-top: auto;
     margin-bottom: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .text {
+  @media (max-width: 635px){
+      .container {
+          background-color: white;
+          display: flex;
+          align-self: center;
+          width: 330px;
+          height: 550px;
+          border-radius: 10px ;
+          overflow: hidden;
+          margin-top: auto;
+          margin-bottom: auto;
+          flex-direction: column;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        
+        .employe{
+            visibility: hidden;
+        }
+
+        .text{
+            margin-left: -30px;
+        }
+        .container image {
+            height: 10% !important;
+        
+          }
+        .text h2{
+            margin-right: -30px;
+        }
+
+        .text p{
+            margin-right: -30px;
+        }
+
+        .footer{
+            display: block !important;
+        }
+  
+    }
+
+    .text {
     padding: 30px;
-    width: 60%;
+    width: 67%;
     margin-top: -20px;
     font-size: 13px;
+    align-self: center ;
   }
 
   .judul{
@@ -42,6 +85,7 @@
   }
 
   .container image {
+    width: 33%;
 
   }
 
@@ -51,6 +95,7 @@
     flex-direction: row;
     height: 40px;
     align-items: center;
+    margin-top: 20px;
   }
 
   .employe img{
@@ -68,4 +113,40 @@
 .nama p{
     margin: 0;
     color: hsl(212, 23%, 69%);
+}
+
+.employe svg{
+    margin-left: auto;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.footer{
+    display: block;
+    margin-top: -60px;
+    padding-left: 35px;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.footer h3{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.contact svg{
+    padding-left: 20px;
+}
+
+.share{
+    margin-left: auto;
+    margin-right: 30px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 100%;
+    padding: 8px !important;
 }
