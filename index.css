@@ -124,13 +124,15 @@
 
 .footer{
     display: none;
-    margin-top: -60px;
-    padding-left: 35px;
+    margin-top: -70px;
+    padding-bottom: 10px;
+    padding-left: 30px;
     background-color: hsl(217, 19%, 35%);
 }
 
 .footer h3{
     color: white;
+    font-size: 23px;
     letter-spacing: 5px;
 }
 
