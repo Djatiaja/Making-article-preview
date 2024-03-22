@@ -124,9 +124,9 @@
 
 .footer{
     display: none;
-    margin-top: -70px;
-    padding-bottom: 10px;
-    padding-left: 30px;
+    bottom: 0;
+    left: 0;
+    padding-left: px;
     background-color: hsl(217, 19%, 35%);
 }
 
