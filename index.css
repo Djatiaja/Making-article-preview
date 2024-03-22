@@ -41,7 +41,6 @@
           flex-direction: column;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
-
         
         .employe{
             visibility: hidden;
@@ -74,6 +73,8 @@
     margin-top: -20px;
     font-size: 13px;
     align-self: center ;
+    padding-bottom: 0 !important;
+    margin-bottom: -40px;
   }
 
   .judul{
@@ -124,8 +125,6 @@
 
 .footer{
     display: none;
-    margin-top: -70px;
-    padding-bottom: 10px;
     padding-left: 40px;
     background-color: hsl(217, 19%, 35%);
 }
