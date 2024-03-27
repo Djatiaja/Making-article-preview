@@ -1,116 +1,88 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
+
+body{
+  background-color:  hsl(210, 46%, 95%);
+}
+.flex {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;      
+}
+
+.container {
+  font-family: 'Manrope', sans-serif;
+  background-color: white;
+  display: flex;
+  width: 600px;
+  height: 250px;
+  border-radius: 10px ;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 635px){
+    .container {
+        width: 330px ;
+        height: 520px ;
+        flex-direction: column;
+      }
+      
+      .text{
+          margin-top: 0px !important;
+          padding-top: 10px !important;
+          width: 270px !important;
+      }
+
+      .image{
+        height: 220px !important;
+      }
   }
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  .text {
+  padding: 30px;
+  width: 67%;
+  margin-top: -20px;
+  font-size: 13px;
+  align-self: center ;
 
-  .flex {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;      
-  }
-  
-  .container {
-    font-family: 'Manrope', sans-serif;
-    background-color: white;
-    display: flex;
-    align-self: center;
-    width: 600px;
-    height: 250px;
-    border-radius: 10px ;
-    overflow: hidden;
-    margin-top: auto;
-    margin-bottom: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+}
 
-  @media (max-width: 635px){
-      .container {
-          width: 330px ;
-          height: 520px ;
-          flex-direction: column;
-        }
-        
-        .text{
-            margin-top: 0px !important;
-            margin-left: -20px;
-            padding: 10px !important;
-            width: 230px !important;
-        }
-        
-        .text h2{
-            margin-right: -30px;
-        }
+.judul{
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
 
-        .text p{
-            margin-right: -30px;
-        }
+.describe{
+  font-weight: 500;
+  color: hsl(214, 17%, 51%);
+}
 
-        .image{
-          height: 230px !important;
-        }
-        
-        .employe  svg{
-          margin-right: -27px;
-        }
-  
-    }
+.employe{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+}
 
-    .text {
-    padding: 30px;
-    width: 67%;
-    margin-top: -20px;
-    font-size: 13px;
-    align-self: center ;
+.employe img{
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.nama{
+  display: flex;
+  flex-direction: column;
+}
 
-  }
-
-  .judul{
-    font-size: 12px;
-    font-weight: 700;
-    color: hsl(217, 19%, 35%);
-  }
-
-  .describe{
-    font-weight: 500;
-    color: hsl(214, 17%, 51%);
-  }
-
-  .container image {
-    width: 33%;
-
-  }
-
-  .employe{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    height: 40px;
-    align-items: center;
-    margin-top: 20px;
-  }
-
-  .employe img{
-    border-radius: 100%;
-    margin-right: 10px;
-  }
-  .nama{
-    display: flex;
-    flex-direction: column;
-  }
 .nama h5{
   font-weight: 700;
-    color: hsl(217, 19%, 35%);
-    margin: 0;
+  color: hsl(217, 19%, 35%);
+  margin: 0;
 }
 .nama p{
   font-weight: 500;
-    margin: 0;
-    color: hsl(212, 23%, 69%);
+  margin: 0;
+  color: hsl(212, 23%, 69%);
 }
 
 .employe svg{
