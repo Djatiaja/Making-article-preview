@@ -30,22 +30,16 @@
 
   @media (max-width: 635px){
       .container {
-          background-color: white;
-          display: flex;
-          align-self: center;
-          width: 330px;
-          height: 550px;
-          border-radius: 10px ;
-          overflow: hidden;
+          width: 330px ;
+          height: 520px ;
           flex-direction: column;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
         
         .text{
             margin-top: 0px !important;
             margin-left: -20px;
+            padding: 10px !important;
             width: 230px !important;
-            font-size: 13px;
         }
         
         .text h2{
@@ -67,7 +61,7 @@
     }
 
     .text {
-    padding: 20px;
+    padding: 30px;
     width: 67%;
     margin-top: -20px;
     font-size: 13px;
