@@ -15,6 +15,7 @@
   }
   
   .container {
+    font-family: 'Manrope', sans-serif;
     background-color: white;
     display: flex;
     align-self: center;
@@ -43,19 +44,13 @@
 
 
         .text{
+          margin-top: 0px !important;
             margin-left: -30px;
-            width: 67%;
-            margin-top: -20px;
+            width: 240px !important;
             font-size: 13px;
-            align-self: center ;
             padding-bottom: 0 !important;
-            margin-bottom: -40px;
         }
         
-        .container image {
-            height: 10% !important;
-        
-          }
         .text h2{
             margin-right: -30px;
         }
@@ -64,8 +59,11 @@
             margin-right: -30px;
         }
 
-        .footer{
-            display: none !important;
+        .image{
+          height: 230px !important;
+        }
+        
+        .employe{
         }
   
     }
@@ -80,10 +78,13 @@
   }
 
   .judul{
+    font-size: 12px;
+    font-weight: 700;
     color: hsl(217, 19%, 35%);
   }
 
   .describe{
+    font-weight: 500;
     color: hsl(214, 17%, 51%);
   }
 
@@ -110,10 +111,12 @@
     flex-direction: column;
   }
 .nama h5{
+  font-weight: 700;
     color: hsl(217, 19%, 35%);
     margin: 0;
 }
 .nama p{
+  font-weight: 500;
     margin: 0;
     color: hsl(212, 23%, 69%);
 }
@@ -123,33 +126,4 @@
     background-color: hsl(210, 46%, 95%);
     border-radius: 100%;
     padding: 4px;
-}
-
-.footer{
-    display: none;
-    padding-left: 40px;
-    background-color: hsl(217, 19%, 35%);
-}
-
-.footer h3{
-    color: white;
-    font-size: 23px;
-    letter-spacing: 5px;
-}
-
-.contact{
-    display: flex;
-    align-items: center;
-}
-
-.contact svg{
-    padding-left: 20px;
-}
-
-.share{
-    margin-left: auto;
-    margin-right: 30px;
-    background-color: hsl(210, 46%, 95%);
-    border-radius: 100%;
-    padding: 8px !important;
 }
